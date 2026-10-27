@@ -1,2 +1,3 @@
-# STA-556-Homework-2
-The second homework assignment for STA 556, focusing on workflow and reproducibility.
+# STA-556-Homework-2: Disney Data
+
+The second homework assignment for STA 556, focused on workflow and reproducibility. This repository explores a dataset of Disney films, which comes from [Keith Galli](https://github.com/KeithGalli/disney-data-science-tasks), and it includes running time, budget, box office, release date, review scores, and language. The notebook in `notebooks/` cleans the data (fixing data types, fixing budget and box office values entered in millions, and keeping each film's main language), summarizes it, and makes three figures: a budget histogram, a comparison of IMDb, Metascore, and Rotten Tomatoes scores, and a budget vs. box office scatterplot. The reusable cleaning and summary functions are in `src/helperFunctions.py`, and the saved figures are in `figures/`.
